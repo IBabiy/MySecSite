@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,900&display=swap');
 
 *{
     margin: 0;
@@ -120,6 +120,105 @@ label.tab.active{
 }
 
 
+.section-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.el-title{
+    color: #00a8b2;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.el-subtitle{
+    width: 900px;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.el-title-second{
+    color: #00a8b2;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top:40px;
+}
+
+.icon-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.icon-block{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 270px;
+    height: 230px;
+}
+
+.icon{
+    width: 80px;
+    height: 80px;
+}
+
+.icon-space-title{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    color: #00a8b2;
+    text-transform: uppercase;
+}
+
+.icon-space-subtitle{
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    background-color:#333333;;
+}
+
+.footer-logo{
+    margin-left: 20px;
+    width: 140px;
+    height: 80px;
+}
+
+.footer-logo img{
+    filter: invert(2);
+}
+
+.footer-connect{
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Catamaran', sans-serif;
+}
+
 @media (max-width: 1240px){
     .main{
         width: 100%;
@@ -144,3 +243,12 @@ label.tab.active{
     .main{
         width: 100%;
     }
+}
+
+@media (max-width: 920px){
+    .el-subtitle{
+        width: 400px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
